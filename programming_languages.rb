@@ -15,6 +15,6 @@ def reformat_languages(languages)
       end
     end
     end
-    binding.pry
+
     h
 end
