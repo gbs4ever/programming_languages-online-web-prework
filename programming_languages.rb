@@ -8,7 +8,7 @@ def reformat_languages(languages)
 #add_to_hash=k
     #h=lang_hash
     #hash=v.keys
-    
+
 
      #h[]={:style =>[ ]}
 #  h[language][:style]     <<add_to_hash
