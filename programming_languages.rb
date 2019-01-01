@@ -5,13 +5,13 @@ def reformat_languages(languages)
     lang_hash.each do |lang,style|
       h[lang]=style
       if   !h[lang][:style]
-    h[lang][:style]= [k]
-    else
-  h[lang][:style] << k
-  
+        h[lang][:style]= [k]
+      else
+      h[lang][:style] << k
 
+
+      end
+    end
+    h
   end
-end
-h
-end
 end
