@@ -4,18 +4,13 @@ def reformat_languages(languages)
   languages.each do |k,lang_hash|
     lang_hash.each do |lang,style|
       h[lang]=style
-  if   !h[lang][:style]
+      if   !h[lang][:style]
     h[lang][:style]= [k]
-else
+    else
   h[lang][:style] << k
-    #h=lang_hash
-    #hash=v.keys
+  
 
-
-     #h[]={:style =>[ ]}
-#  h[language][:style]     <<add_to_hash
-
-end
+  end
 end
 h
 end
