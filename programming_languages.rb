@@ -5,6 +5,7 @@ h= {}
     add_to_hash=k
     h=v
     hash=v.keys
+    binding.pry
     h.each do |language, key|
      h[language]={:style =>[ ]}
 #  h[language][:style]     <<add_to_hash
