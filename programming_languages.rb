@@ -1,13 +1,13 @@
 require "pry"
 def reformat_languages(languages)
 h= {}
-  languages.each do |k,v|
+  languages.each do |k,lang_hash|
     add_to_hash=k
-    h=v
+    h=lang_hash
     hash=v.keys
     binding.pry
-    h.each do |language, key|
-     h[language]={:style =>[ ]}
+    
+     h[]={:style =>[ ]}
 #  h[language][:style]     <<add_to_hash
 
 end
