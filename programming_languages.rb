@@ -6,7 +6,8 @@ def reformat_languages(languages)
       h[lang]=style
   if   !h[lang][:style]
     h[lang][:style]= [k]
-else h[lang][:style]= << k
+else 
+  h[lang][:style]= << k
     #h=lang_hash
     #hash=v.keys
 
